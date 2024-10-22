@@ -8,9 +8,9 @@
  **/ 
 
 
-// Example custom function using Number() and prompt()
+// Example custom function using Number() and prompt(), must add code to line 13 to acuire input from user
 function circle_area() {
-    let radius = Number(prompt("What is the radius of the circle?"));
+   
     console.log(`The area is: ${Math.PI * radius**2}`);
 }
 
